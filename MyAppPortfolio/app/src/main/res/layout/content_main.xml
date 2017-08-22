@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    android:padding="8dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fransunisoft.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#303F9F"
+        android:paddingBottom="24dp"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:id="@+id/textView"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/spotify_streamer"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff6d00"
+        android:id="@+id/button"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/scores_app"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff6d00"
+        android:id="@+id/button1"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/library_app"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff6d00"
+        android:id="@+id/button2"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/build_it_bigger"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff6d00"
+        android:id="@+id/button3"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/beacon_reader"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff6d00"
+        android:id="@+id/button4"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/capstone"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#f44336"
+        android:id="@+id/button5"
+        android:layout_gravity="center" />
+
+</LinearLayout>
